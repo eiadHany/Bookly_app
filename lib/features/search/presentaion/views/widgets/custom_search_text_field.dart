@@ -9,6 +9,9 @@ class CustomSearchTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextField(
+      onTapOutside: (event) {
+        FocusManager.instance.primaryFocus?.unfocus();
+      },
       decoration: InputDecoration(
         focusedBorder: buildOutlineInputBorde(),
         enabledBorder: buildOutlineInputBorde(),
