@@ -3,7 +3,7 @@ import 'package:bookly_app/features/home/presentaion/views/home_view.dart';
 import 'package:bookly_app/features/search/presentaion/views/search_view.dart';
 import 'package:go_router/go_router.dart';
 
-import '../../features/presentaion/view_models/views/splash_view.dart';
+import '../../features/splash/presentaion/view_models/views/splash_view.dart';
 
 abstract class AppRoutes {
   static const kHomeView = '/HomeView';
