@@ -14,7 +14,10 @@ class SimilarFeaturedBooksListView extends StatelessWidget {
         itemBuilder: (context, index) {
           return const Padding(
             padding: EdgeInsets.only(right: 16),
-            child: CustomBookImage(),
+            child: CustomBookImage(
+              imageUrl:
+                  'https://www.freepik.com/free-vector/hand-drawn-flat-design-stack-books_24005145.htm#query=book%20illustration&position=0&from_view=keyword&track=ais',
+            ),
           );
         },
         scrollDirection: Axis.horizontal,
