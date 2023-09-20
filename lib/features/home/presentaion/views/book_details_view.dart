@@ -39,7 +39,7 @@ class BookDetailsViewBody extends StatelessWidget {
                   padding: EdgeInsets.symmetric(horizontal: width * .2),
                   child: const CustomBookImage(
                       imageUrl:
-                          'https://www.freepik.com/free-vector/hand-drawn-flat-design-stack-books_24005145.htm#query=book%20illustration&position=0&from_view=keyword&track=ais'),
+                          'https://m.media-amazon.com/images/I/61JLEeR7IdL._SL1500_.jpg'),
                 ),
                 const SizedBox(
                   height: 25,

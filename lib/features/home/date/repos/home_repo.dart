@@ -6,4 +6,6 @@ import '../../../../core/uitls/errors.dart';
 abstract class HomeRepo {
   Future<Either<Failure, List<BookModel>>> fetchNewstBooks();
   Future<Either<Failure, List<BookModel>>> fetchFeaturedBooks();
+  Future<Either<Failure, List<BookModel>>> fetchSimillarBooks(
+      {required String category});
 }
