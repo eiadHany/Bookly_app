@@ -40,6 +40,7 @@ class BookDetailsViewBody extends StatelessWidget {
   Widget build(BuildContext context) {
     var width = MediaQuery.of(context).size.width;
     return CustomScrollView(
+      physics: const BouncingScrollPhysics(),
       slivers: [
         SliverFillRemaining(
           hasScrollBody: false,
